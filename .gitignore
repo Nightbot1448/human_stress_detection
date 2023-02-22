@@ -1,0 +1,8 @@
+.idea
+.ipynb_checkpoints
+venv
+*.pyc
+
+models_dumps/**/*.pkl
+models_dumps/**/*.log
+models_dumps/**/*tfevents**

@@ -1,0 +1,5 @@
+*
+!.gitignore
+!WESAD
+!WESAD/see.ipynb
+!WESAD/wesad_signal_and_rr_intervals.pkl

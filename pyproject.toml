@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "human_func_state"
+version = "0.1.0"
+description = "Human functional state determination"
+authors = ["Maksim Dobrokhvalov <modobrokhvalov@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+torch = "^1.13.1"
+pandas = {version = "^2.0.0", extras=["output_formatting"] }
+tensorboard = "^2.12.0"
+tqdm = "^4.64.1"
+notebook = "^6.5.2"
+heartpy = "^1.2.7"
+wfdb = {version="^4.1.0", optional = true}
+scikit-learn = "^1.2.1"
+ipywidgets = "^8.0.4"
+
+[tool.poetry.extras]
+drivers = ["wfdb"]
+
+[tool.poetry.group.dev.dependencies]
+black = {version = "^23.1.0", extras = ["jupyter"]}
+flake8 = "^6.0.0"
+pyproject-flake8 = "^6.0.0.post1"
+poethepoet = "^0.18.1"
+
+[tool.black]
+line-length = 79
+target-version = ['py310']
+
+[tool.flake8]
+extend-ignore = ["E402"]
+per-file-ignores = """
+     ds/drivers/drivers.py: E203, E501
+"""
+
+[tool.poe.tasks.format]
+cmd = "black ."
+
+[tool.poe.tasks.lint]
+cmd = "pflake8 ."
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

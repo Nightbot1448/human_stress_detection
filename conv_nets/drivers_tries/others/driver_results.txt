@@ -1,0 +1,40 @@
+-------------------------
+Driver 5
+rate before:  tensor(0.8286)
+best = (tensor(0.9375), 15), worst = (tensor(0.7188), 42), loss = (0.22308825492858886, 26)
+-------------------------
+Driver 6
+rate before:  tensor(0.5484)
+best = (tensor(0.6429), 31), worst = (tensor(0.4286), 7), loss = (0.19741227388381957, 49)
+-------------------------
+Driver 7
+rate before:  tensor(0.5000)
+best = (tensor(0.7000), 3), worst = (tensor(0.5000), 2), loss = (0.13876843810081482, 23)
+-------------------------
+Driver 8
+rate before:  tensor(0.4444)
+best = (tensor(0.5682), 2), worst = (tensor(0.4091), 5), loss = (0.29649521589279176, 21)
+-------------------------
+Driver 9
+rate before:  tensor(0.5357)
+best = (tensor(0.6071), 21), worst = (tensor(0.3929), 1), loss = (0.17279253721237184, 5)
+-------------------------
+Driver 10
+rate before:  tensor(0.5957)
+best = (tensor(0.7045), 10), worst = (tensor(0.4545), 20), loss = (0.32851505041122436, 36)
+-------------------------
+Driver 11
+rate before:  tensor(0.4848)
+best = (tensor(0.6250), 7), worst = (tensor(0.3438), 6), loss = (0.2126217782497406, 49)
+-------------------------
+Driver 12
+rate before:  tensor(0.7083)
+best = (tensor(0.7500), 30), worst = (tensor(0.4167), 0), loss = (0.16314111590385438, 45)
+-------------------------
+Driver 15
+rate before:  tensor(0.5000)
+best = (tensor(0.6389), 6), worst = (tensor(0.4722), 16), loss = (0.23983461380004883, 35)
+-------------------------
+Driver 16
+rate before:  tensor(0.4000)
+best = (tensor(0.5500), 31), worst = (tensor(0.3500), 13), loss = (0.11933897137641906, 28)
